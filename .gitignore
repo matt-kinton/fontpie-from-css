@@ -1,0 +1,4 @@
+node_modules
+# This is generated during release
+index.d.ts
+test/fixtures
