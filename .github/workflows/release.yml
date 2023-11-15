@@ -30,7 +30,7 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     if:
-      ${{ github.repository == 'fontpie-from-css' &&
+      ${{ github.repository == 'matt-kinton/fontpie-from-css' &&
       contains('refs/heads/main,refs/heads/beta,refs/heads/next,refs/heads/alpha',
       github.ref) && github.event_name == 'push' }}
     steps:
