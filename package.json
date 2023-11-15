@@ -32,7 +32,8 @@
   "license": "MIT",
   "dependencies": {
     "css-parse": "^2.0.0",
-    "fontpie-calc": "^0.2.0"
+    "fontpie-calc": "^0.2.0",
+    "fontkit": "^2.0.2"
   },
   "engines": {
     "node": ">=18"
@@ -57,7 +58,6 @@
     "@commitlint/cli": "^18.4.1",
     "@commitlint/config-conventional": "^18.4.0",
     "@types/node": "^20.4.5",
-    "fontkit": "^2.0.2",
     "husky": "^8.0.3"
   }
 }
