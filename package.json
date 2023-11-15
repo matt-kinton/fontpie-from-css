@@ -8,15 +8,16 @@
     ".": "./src/index.js"
   },
   "files": [
-    "index.js",
-    "index.d.ts"
+    "./bin/index.js",
+    "./bin/index.d.ts",
+    "./src/index.js"
   ],
   "publishConfig": {
     "access": "public"
   },
   "version": "0.0.0-semantically-released",
   "description": "CLI tool for creating fallback fonts from a CSS file using fontpie.",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "node --test --test-reporter spec --experimental-test-coverage **/*.test.js",
     "test:watch": "node --test --test-reporter spec --watch **/*.test.js",
