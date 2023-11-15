@@ -19,7 +19,7 @@ npx fontpie-from-css <css-file>
 This project is a simple wrapper around
 [fontpie](https://github.com/pixel-point/fontpie) by
 [pixel-point](https://github.com/pixel-point). All credit for the heavy lifting
-goes to them.]
+goes to them.
 
 ## License
 
