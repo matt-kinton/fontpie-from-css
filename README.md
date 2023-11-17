@@ -12,12 +12,16 @@ Generate fallback fonts from a CSS file using fontpie.
 
 ## Usage
 
+### Basic
+
 ```bash
 npx fontpie-from-css <css-file>
 ```
 
 **Note:** Font files are loaded relative to the CSS file, ideally the CSS file
 should be in the same directory as the font files.
+
+### Writing to a file
 
 You can output the result to a file by using `>` or append to a file using `>>`.
 
@@ -28,6 +32,14 @@ npx fontpie-from-css <css-file> > <output-file>
 ```bash
 npx fontpie-from-css <css-file> >> <output-file>
 ```
+
+## Useful links
+
+- [fontpie](https://github.com/pixel-point/fontpie) - The tool this project is
+  based on
+- [Google Fonts](https://fonts.google.com/) - Download free fonts
+- [transfonter](https://transfonter.org/) - For generating a CSS file from font
+  files
 
 ## Credit
 
