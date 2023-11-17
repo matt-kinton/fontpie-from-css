@@ -19,6 +19,16 @@ npx fontpie-from-css <css-file>
 **Note:** Font files are loaded relative to the CSS file, ideally the CSS file
 should be in the same directory as the font files.
 
+You can output the result to a file by using `>` or append to a file using `>>`.
+
+```bash
+npx fontpie-from-css <css-file> > <output-file>
+```
+
+```bash
+npx fontpie-from-css <css-file> >> <output-file>
+```
+
 ## Credit
 
 This project is a simple wrapper around
